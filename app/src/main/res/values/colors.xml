@@ -1,6 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#008577</color>
-    <color name="colorPrimaryDark">#00574B</color>
-    <color name="colorAccent">#D81B60</color>
+    <color name="colorPrimaryLight">#266A75</color>
+    <color name="colorPrimary">#113B42</color>
+    <color name="colorPrimaryDark">#0C282E</color>
+    <color name="colorPrimaryTrans">#AA0C282E</color>
+    <color name="colorAccent">@color/g3</color>
+
+
+    <color name="divider">#ACACAC</color>
+    <color name="buttonGreyLight">#3D5766</color>
+    <color name="buttonGrey">#2F4B5B</color>
+    <color name="buttonPressed">#02263A</color>
+    <color name="logo_green">#9CB345</color>
+    <color name="buttonIcon">#EEEEEE</color>
+    <color name="login_input_background">#E9EFFD</color>
+    <color name="text_dashboard_button">#EEEEEE</color>
+
+    <color name="bg_brown">#FFCC99</color>
+    <color name="color_brown">#661A00</color>
+    <color name="bg_orange">#ff9999</color>
+    <color name="color_orange">#e42d2d</color>
+    <color name="bg_purple">#cfbfff</color>
+    <color name="color_purple">#451677</color>
+    <color name="bg_blue">#BFEDFF</color>
+    <color name="color_blue">#163177</color>
+    <color name="color_flag">#b94a48</color>
+    <color name="text_tab_unselected">#999999</color>
+    <color name="text_grey">#AAAAAA</color>
+    <color name="text_grey_dark">#555555</color>
+    <color name="button_background">#B9C5C8</color>
+    <color name="bg_missing">#FFD699</color>
+    <color name="color_missing">#F0660B</color>
+    <color name="bg_arrive">#BEFFB3</color>
+    <color name="color_arrive">#288102</color>
+
+    <color name="cargo_tab_indicator">#38B304</color>
+
+    <color name="g0">#000000</color>
+    <color name="g1">#131313</color>
+    <color name="g2">#323232</color>
+    <color name="g3">#525252</color>
+    <color name="g4">#646464</color>
+    <color name="g5">#808080</color>
+    <color name="g6">#969696</color>
+
+    <color name="b1">#B2B2B2</color>
+    <color name="b2">#E0E0E0</color>
+    <color name="b3">#ECECEC</color>
+    <color name="b4">#F2F2F2</color>
+    <color name="red">#dd2222</color>
+    <color name="blue">#0071FF</color>
+    <color name="success">#4BB543</color>
 </resources>

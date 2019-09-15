@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="BASE_URL">http://logisticstgstag.localdev.techgrains.com:9025/</string>
+    <string name="GET_PENDING_TR">api/MobileApp/GetPendingTRList</string>
+
+</resources>

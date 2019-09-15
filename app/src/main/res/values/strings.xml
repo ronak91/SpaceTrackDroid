@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">SpaceTrack</string>
+    <string name="something_went_wrong">Something went rong.</string>
+    <string name="ok">OK</string>
+    <string name="agencies">Agencies</string>
+    <string name="astronaut">Astronaut</string>
+    <string name="spacecraft">Spacecraft</string>
+    <string name="launcher">Launcher</string>
+    <string name="launch">Launch</string>
+    <string name="event">Event</string>
 </resources>
