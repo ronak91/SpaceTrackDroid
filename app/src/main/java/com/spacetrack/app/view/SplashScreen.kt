@@ -1,9 +1,10 @@
-package com.spacetrack.app
+package com.spacetrack.app.view
 
 import android.content.Intent
 import android.os.Bundle
 import android.os.Handler
 import androidx.appcompat.app.AppCompatActivity
+import com.spacetrack.app.R
 
 class SplashScreen : AppCompatActivity() {
 
@@ -12,7 +13,7 @@ class SplashScreen : AppCompatActivity() {
         setContentView(R.layout.launch_screen)
 
         Handler().postDelayed({
-            var start = Intent(this,MainActivity::class.java);
+            var start = Intent(this, DashboardActivity::class.java);
             startActivity(start)
         },
         4000);
