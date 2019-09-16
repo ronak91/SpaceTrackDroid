@@ -34,11 +34,11 @@
                 android:layout_height="0dp"
                 android:layout_weight="1">
 
-            <LinearLayout
+        <LinearLayout
                     android:clickable="true"
                     app:layout_constraintStart_toStartOf="parent"
-                    android:id="@+id/btnRelease"
-                    app:layout_constraintStart_toEndOf="@id/btnArrive"
+                    android:id="@+id/btnAgencies"
+                    app:layout_constraintStart_toEndOf="@id/btnAgencies"
                     android:layout_width="0dp"
                     android:layout_weight="1"
                     android:orientation="vertical"
@@ -62,8 +62,8 @@
                     android:clickable="true"
                     app:layout_constraintEnd_toEndOf="parent"
                     android:layout_width="0dp"
-                    android:id="@+id/btnArrive"
-                    app:layout_constraintEnd_toStartOf="@id/btnRelease"
+                    android:id="@+id/btnAstronaut"
+                    app:layout_constraintEnd_toStartOf="@id/btnAgencies"
                     android:layout_weight="1"
                     android:gravity="center"
                     android:orientation="vertical"
@@ -95,9 +95,9 @@
             <LinearLayout
                     app:layout_constraintEnd_toEndOf="parent"
                     android:clickable="true"
-                    android:id="@+id/btnManifestRelease"
-                    app:layout_constraintStart_toEndOf="@id/btnReceive"
-                    app:layout_constraintTop_toBottomOf="@id/btnRelease"
+                    android:id="@+id/btnSpacecraft"
+                    app:layout_constraintStart_toEndOf="@id/btnAgencies"
+                    app:layout_constraintTop_toBottomOf="@id/btnAgencies"
                     android:layout_width="0dp"
                     android:layout_weight="1"
                     android:background="@drawable/background_button"
@@ -122,15 +122,15 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_marginStart="@dimen/margin_xs"
-                    android:id="@+id/btnManifestArrive"
+                    android:id="@+id/btnLauncher"
                     android:layout_weight="1"
                     android:background="@drawable/background_button"
                     android:clickable="true"
                     android:gravity="center"
                     android:orientation="vertical"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toEndOf="@id/btnManifestRelease"
-                    app:layout_constraintTop_toBottomOf="@id/btnManifestRelease">
+                    app:layout_constraintStart_toEndOf="@id/btnSpacecraft"
+                    app:layout_constraintTop_toBottomOf="@id/btnSpacecraft">
 
                 <TextView
                         android:layout_width="wrap_content"
@@ -156,7 +156,7 @@
                 android:layout_weight="1">
 
             <LinearLayout
-                    android:id="@+id/btnReceive"
+                    android:id="@+id/btnLaunch"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_marginEnd="@dimen/margin_sm"
@@ -180,10 +180,10 @@
 
 
             <LinearLayout
-                    android:id="@+id/btnRepack"
+                    android:id="@+id/btnEvent"
                     app:layout_constraintEnd_toEndOf="parent"
                     android:clickable="true"
-                    app:layout_constraintStart_toEndOf="@id/btnReceive"
+                    app:layout_constraintStart_toEndOf="@id/btnLaunch"
                     android:layout_width="0dp"
                     android:layout_weight="1"
                     android:orientation="vertical"
