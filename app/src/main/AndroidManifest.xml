@@ -18,6 +18,12 @@
         </activity>
 
         <activity android:name=".view.DashboardActivity"  android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"/>
+        <activity android:name=".view.AgenciesActivity"  android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"/>
+        <activity android:name=".view.AstronautActivity"  android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"/>
+        <activity android:name=".view.SpacecraftActivity"  android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"/>
+        <activity android:name=".view.LauncherActivity"  android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"/>
+        <activity android:name=".view.LaunchActivity"  android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"/>
+        <activity android:name=".view.EventActivity"  android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"/>
 
     </application>
 

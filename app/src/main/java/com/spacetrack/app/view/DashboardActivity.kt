@@ -20,7 +20,26 @@ class DashboardActivity : AppCompatActivity() {
         val btnLaunch = findViewById<LinearLayout>(R.id.btnLaunch)
         val btnEvent = findViewById<LinearLayout>(R.id.btnEvent)
 
-        goToActivity("AgenciesActivity");
+
+
+        btnAgencies?.setOnClickListener {
+            goToActivity("AgenciesActivity");
+        }
+        btnAstronaut.setOnClickListener {
+            goToActivity("AstronautActivity");
+        }
+        btnSpacecraft.setOnClickListener {
+            goToActivity("SpacecraftActivity");
+        }
+        btnLauncher.setOnClickListener {
+            goToActivity("LauncherActivity");
+        }
+        btnLaunch.setOnClickListener {
+            goToActivity("LaunchActivity");
+        }
+        btnEvent.setOnClickListener {
+            goToActivity("EventActivity");
+        }
 
 
     }
